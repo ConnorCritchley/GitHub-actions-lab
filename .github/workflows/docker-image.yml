@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: jamesleemeredith/docker-actions-example2:latest
+          tags: connorcritchley/docker-actions-example:latest
