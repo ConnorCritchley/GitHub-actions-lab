@@ -7,7 +7,6 @@ COPY jars/spark-sql-kafka-0-10_2.12-3.3.2.jar /usr/local/spark/jars/
 COPY jars/kafka-clients-3.4.0.jar /usr/local/spark/jars/
 COPY jars/spark-token-provider-kafka-0-10_2.12-3.3.2.jar /usr/local/spark/jars/
 COPY jars/commons-pool2-2.11.1.jar /usr/local/spark/jars/
-COPY jars/postgresql-42.7.3.jar /usr/local/spark/jars/
 
 ## Using Python 3 install requirements file
 COPY requirements.txt ./
